@@ -43,7 +43,7 @@ function ProjectJourney() {
           icon={<JavascriptIcon />}
         >
           <h3 className="vertical-timeline-element-title">
-            Shoppy Ecommerce Website
+            Personal Portfolio Website
           </h3>
         </VerticalTimelineElement>
         <VerticalTimelineElement
