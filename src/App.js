@@ -37,7 +37,7 @@ function App() {
   }, []);
 
   return (
-    <Router>
+    <Router basename="/Personal-Portfolio">
       <Preloader load={load} />
       <div className="App" id={load ? "no-scroll" : "scroll"}>
         <MyNav />
