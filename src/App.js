@@ -42,8 +42,8 @@ function App() {
       <div className="App" id={load ? "no-scroll" : "scroll"}>
         <MyNav />
         <Routes>
-          <Route path="/Personal-Portfolio" element={<Home />}>
-            <Route path="/Personal-Portfolio" element={<About />}></Route>
+          <Route path="/" element={<Home />}>
+            <Route path="/" element={<About />}></Route>
             <Route path="personalskill" element={<PersonalSkill />} />
             <Route path="technicalskill" element={<TechnicalSkill />} />
             <Route path="technicaljourney" element={<TechnicalJourney />} />
