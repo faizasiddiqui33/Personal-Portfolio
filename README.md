@@ -1,7 +1,7 @@
-![Portfolio](https://github.com/MD-MAFUJUL-HASAN/Personal-Portfolio/blob/main/src/images/portfolio.png)
+![Portfolio](https://github.com/faizasiddiqui33/Personal-Portfolio/blob/master/src/images/portfolio.png)
 
 
-## [Portfolio Live on Netlify and Vercel app🎯](https://tonmoysu.netlify.app/)
+## [Portfolio Live on GitHub Pages](https://faizasiddiqui33.github.io/Personal-Portfolio/)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
