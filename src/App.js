@@ -43,7 +43,7 @@ function App() {
         <MyNav />
         <Routes>
           <Route path="/Personal-Portfolio" element={<Home />}>
-            <Route path="/" element={<About />}></Route>
+            <Route path="/Personal-Portfolio" element={<About />}></Route>
             <Route path="personalskill" element={<PersonalSkill />} />
             <Route path="technicalskill" element={<TechnicalSkill />} />
             <Route path="technicaljourney" element={<TechnicalJourney />} />
