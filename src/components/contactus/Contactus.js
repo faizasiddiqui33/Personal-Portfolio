@@ -138,8 +138,7 @@ export default function Contactus() {
                       <p style={{ color: "#fbd9ad" }}>+1-(587)-969-9970</p>
                     </a>
                     <a
-                      href="https://www.google.ca/maps/place/Canada/@48.8264772,-135.5378996,3z/data=!3m1!4b1!4m6!3m5!1s0x4b0d03d337cc6ad9:0x9968b72aa2438fa5!8m2!3d56.130366!4d-106.346771!16zL20vMGQwNjBn?entry=ttu"
-                      className="personal-details"
+                     className="personal-details"
                     >
                       <div className="personal-details">
                         <div className="detailsIcon">

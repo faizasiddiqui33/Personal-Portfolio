@@ -2,10 +2,10 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Zoom from "react-reveal/Zoom";
 import { Fade } from "react-reveal";
-import nyc from "../../images/nyc.png";
-import ci from "../../images/onboarding.png";
-import hd from "../../images/hd.png";
-import pp from "../../images/portfolio.png";
+import bigdata from "../../images/bigdata.jpeg";
+import bank from "../../images/bank.jpeg";
+import gold from "../../images/gold.jpeg";
+import house from "../../images/house.jpeg";
 import { FaCode } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { HiArrowRight } from "react-icons/hi";
@@ -38,7 +38,7 @@ export default function Projects() {
                     <h5 id={"first"} style={{ color: "#fbd9ad" }}>
                        Big Data Analytics & Cloud Computing 
                     </h5>
-                    <img src={nyc} alt={nyc} />
+                    <img src={bigdata} alt={bigdata} />
                     <div className="project--showcaseBtn">
                       <a
                         href={
@@ -66,11 +66,10 @@ export default function Projects() {
                         fontWeight: 600,
                       }}
                     >                   
-                      This project explored the relationship between big data and
-                      cloud computing, focusing on how organizations can use these 
-                      technologies to stay competitive and innovative. I analyzed 
-                      sentiment in Amazon's electronic product reviews, using AWS
-                      platform with services like EC2, S3, and EMR.
+                      Explored the relationship between big data & AWS (EC2, S3, EMR).
+                      Effectively managed 3.2M records of data. Loaded, processed & explored
+                      big data efficiently on cloud. Conducted NLP sentiment analysis using 
+                      Vader Model & visualized data on an interactive dashboard
                     </p>
                   </h6>
                   <div
@@ -81,7 +80,7 @@ export default function Projects() {
                       fontWeight: 600,
                     }}
                   >
-                    Python, PySpark, AWS, Tableau
+                    Python - Pandas, NumPy, AWS, PySpark, Tableau
                   </div>
                 </div>
               </Fade>
@@ -98,9 +97,9 @@ export default function Projects() {
                 >
                   <div className="projectContent">
                     <h5 id={"first"} style={{ color: "#fbd9ad" }}>
-                      Time Series Analysis Forecasting
+                    Time Series Analysis - Forecasting Prices of Gold Project
                     </h5>
-                    <img src={hd} alt={hd} />
+                    <img src={gold} alt={gold} />
                     <div className="project--showcaseBtn">
                       <a
                         href={
@@ -128,11 +127,11 @@ export default function Projects() {
                         fontWeight: 600,
                       }}
                     >
-                      In this project, I analyzed time series data to understand
-                      its patterns. I used various models, including Holt's Linear 
-                      Trend, Holt-Winters' Seasonal method, and SARIMA, to find 
-                      the best fit for the dataset. The main goal was to predict 
-                      the average gold prices for each month based on historical data.
+                      Cleaned & analyzed time series data by developing 
+                      various models namely, Persist, Exponential Smoothing, 
+                      Holt’s Linear Trend method, Holt-Winters’ Seasonal method, 
+                      ARIMA & SARIMA. Built predictive models to forecast monthly 
+                      average gold prices of data
                     </p>
                   </h6>
                   <div
@@ -143,7 +142,7 @@ export default function Projects() {
                       fontWeight: 600,
                     }}
                   >
-                    Pandas, Matplotlib, Scikit-Learn, Numpy, Statsmodels
+                    Python- Statsmodels, SARIMA
                   </div>
                 </div>
               </Fade>
@@ -160,13 +159,13 @@ export default function Projects() {
                 >
                   <div className="projectContent">
                     <h5 id={"first"} style={{ color: "#fbd9ad" }}>
-                      Online Payroll Management System
+                      Approximation of Losses on a Lending Project for FCC
                     </h5>
-                    <img src={ci} alt={ci} />
+                    <img src={bank} alt={bank} />
                     <div className="project--showcaseBtn">
                       <a
                         href={
-                          "https://github.com/MD-MAFUJUL-HASAN/Online-Payroll-Management-System"
+                          "https://github.com/faizasiddiqui33/PredictingLossesOnLending"
                         }
                         target="_blank"
                         rel="noreferrer"
@@ -190,11 +189,10 @@ export default function Projects() {
                         fontWeight: 600,
                       }}
                     >
-                      A Payroll management System with feature like generate
-                      payslip & reports. It manages salaries, leaves, branches,
-                      employees, designations, shifts, holidays and employee
-                      attendance. It has chat application so internal employees
-                      can use that feature.
+                      Developed regression models, decision tree, random forest, NN models
+                      with hyperparameter tuning to help Farm Credit Canada. Conducted EDA 
+                      & visualized data.Awarded by FCC for the best findings throughout the
+                      entire class. Predicted loss calculation on loan with 92.7% accuracy
                     </p>
                   </h6>
                   <div
@@ -205,7 +203,7 @@ export default function Projects() {
                       fontWeight: 600,
                     }}
                   >
-                    CSS, JavaScript, PHP, SCSS
+                    Python – Scikit-learn, TensorFlow, Matplotlib
                   </div>
                 </div>
               </Fade>
@@ -222,13 +220,13 @@ export default function Projects() {
                 >
                   <div className="projectContent">
                     <h5 id={"first"} style={{ color: "#fbd9ad" }}>
-                      Personal Portfolio
+                      House Price Prediction 
                     </h5>
-                    <img src={pp} alt={pp} />
+                    <img src={house} alt={house} />
                     <div className="project--showcaseBtn">
                       <a
                         href={
-                          "https://github.com/MD-MAFUJUL-HASAN/Personal-Portfolio"
+                          "https://github.com/faizasiddiqui33/HousePricePrediction"
                         }
                         target="_blank"
                         rel="noreferrer"
@@ -252,9 +250,9 @@ export default function Projects() {
                         fontWeight: 600,
                       }}
                     >
-                      Welcome to my personal portfolio. Explore my work, skills,
-                      and achievements in a concise and visually appealing
-                      format. Get a glimpse of my expertise and creativity.
+                      Housing price prediction project completed independently 
+                      within 24-hours using LSTM, multiple regression, SARIMAX 
+                      & ARIMA models, showcasing efficient time management 
                     </p>
                   </h6>
                   <div
@@ -265,7 +263,7 @@ export default function Projects() {
                       fontWeight: 600,
                     }}
                   >
-                    HTML, CSS, SCSS, React, JavaScript
+                    Python – Scikit-learn, Keras, Time series models
                   </div>
                 </div>
               </Fade>
