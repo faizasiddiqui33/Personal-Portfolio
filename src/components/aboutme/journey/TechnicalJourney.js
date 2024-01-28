@@ -94,7 +94,7 @@ function TechnicalJourney() {
           iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
           icon={<DiHtml5 />}
         >
-          <h3 className="vertical-timeline-element-title">TABLEA</h3>
+          <h3 className="vertical-timeline-element-title">TABLEAU</h3>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
@@ -104,7 +104,7 @@ function TechnicalJourney() {
           iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
           icon={<DiCss3 />}
         >
-          <h3 className="vertical-timeline-element-title">CSS</h3>
+          <h3 className="vertical-timeline-element-title">POWER BI</h3>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
@@ -114,7 +114,7 @@ function TechnicalJourney() {
           iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
           icon={<DiJavascript1 />}
         >
-          <h3 className="vertical-timeline-element-title">JAVASCRIPT</h3>
+          <h3 className="vertical-timeline-element-title">REACT JS</h3>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
@@ -124,7 +124,7 @@ function TechnicalJourney() {
           iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
           icon={<DiPhp />}
         >
-          <h3 className="vertical-timeline-element-title">PHP</h3>
+          <h3 className="vertical-timeline-element-title">C/C++</h3>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
@@ -134,7 +134,7 @@ function TechnicalJourney() {
           iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
           icon={<DiMysql />}
         >
-          <h3 className="vertical-timeline-element-title">SQL</h3>
+          <h3 className="vertical-timeline-element-title">HTML/CSS</h3>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
@@ -144,7 +144,7 @@ function TechnicalJourney() {
           iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
           icon={<DiNodejs />}
         >
-          <h3 className="vertical-timeline-element-title">NODE JS</h3>
+          <h3 className="vertical-timeline-element-title">C#</h3>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
@@ -154,7 +154,7 @@ function TechnicalJourney() {
           iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
           icon={<DiReact />}
         >
-          <h3 className="vertical-timeline-element-title">REACT</h3>
+          <h3 className="vertical-timeline-element-title">JAVA</h3>
         </VerticalTimelineElement>
 
         <VerticalTimelineElement

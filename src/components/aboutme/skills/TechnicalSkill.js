@@ -27,7 +27,7 @@ export default function TechnicalSkill() {
               <h1
                 style={{ fontSize: "100px", color: "#fe3e57", fontWeight: 700 }}
               >
-                75%
+                 85%
               </h1>
               <div style={{ paddingLeft: "50px", paddingRight: "50px" }}>
                 <div class="progress">
@@ -48,7 +48,7 @@ export default function TechnicalSkill() {
                     fontWeight: 700,
                   }}
                 >
-                  C
+                  Python
                 </h2>
               </div>
             </Col>
@@ -56,7 +56,7 @@ export default function TechnicalSkill() {
               <h1
                 style={{ fontSize: "100px", color: "#54faae", fontWeight: 700 }}
               >
-                75%
+                80%
               </h1>
               <div style={{ paddingLeft: "50px", paddingRight: "50px" }}>
                 <div class="progress">
@@ -66,7 +66,7 @@ export default function TechnicalSkill() {
                     aria-valuenow={"85"}
                     aria-valuemin={"0"}
                     aria-valuemax={"100"}
-                    style={{ width: "85%" }}
+                    style={{ width: "80%" }}
                   ></div>
                 </div>
                 <h2
@@ -77,7 +77,7 @@ export default function TechnicalSkill() {
                     fontWeight: 700,
                   }}
                 >
-                  C++
+                  SQL
                 </h2>
               </div>
             </Col>
@@ -85,7 +85,7 @@ export default function TechnicalSkill() {
               <h1
                 style={{ fontSize: "100px", color: "#39c4ff", fontWeight: 700 }}
               >
-                80%
+                70%
               </h1>
               <div style={{ paddingLeft: "50px", paddingRight: "50px" }}>
                 <div class="progress">
@@ -95,7 +95,7 @@ export default function TechnicalSkill() {
                     aria-valuenow={"90"}
                     aria-valuemin={"0"}
                     aria-valuemax={"100"}
-                    style={{ width: "90%" }}
+                    style={{ width: "70%" }}
                   ></div>
                 </div>
                 <h2
@@ -106,7 +106,7 @@ export default function TechnicalSkill() {
                     fontWeight: 700,
                   }}
                 >
-                  Python
+                  C
                 </h2>
               </div>
             </Col>
@@ -124,7 +124,7 @@ export default function TechnicalSkill() {
                     aria-valuenow={"81"}
                     aria-valuemin={"0"}
                     aria-valuemax={"100"}
-                    style={{ width: "81%" }}
+                    style={{ width: "71%" }}
                   ></div>
                 </div>
                 <h2
@@ -135,7 +135,7 @@ export default function TechnicalSkill() {
                     fontWeight: 700,
                   }}
                 >
-                  Javascript
+                  C++
                 </h2>
               </div>
             </Col>
@@ -153,7 +153,7 @@ export default function TechnicalSkill() {
                     aria-valuenow={"88"}
                     aria-valuemin={"0"}
                     aria-valuemax={"100"}
-                    style={{ width: "88%" }}
+                    style={{ width: "68%" }}
                   ></div>
                 </div>
                 <h2
@@ -164,36 +164,7 @@ export default function TechnicalSkill() {
                     fontWeight: 700,
                   }}
                 >
-                  MySQL
-                </h2>
-              </div>
-            </Col>
-            <Col md={4}>
-              <h1
-                style={{ fontSize: "100px", color: "#ff8c2f", fontWeight: 700 }}
-              >
-                66%
-              </h1>
-              <div style={{ paddingLeft: "50px", paddingRight: "50px" }}>
-                <div class="progress">
-                  <div
-                    role={"progressbar"}
-                    id={"ps"}
-                    aria-valuenow={"86"}
-                    aria-valuemin={"0"}
-                    aria-valuemax={"100"}
-                    style={{ width: "86%" }}
-                  ></div>
-                </div>
-                <h2
-                  style={{
-                    color: "#ff8c2f",
-                    fontSize: "25px",
-                    marginTop: "13px",
-                    fontWeight: 700,
-                  }}
-                >
-                  NodeJS
+                  Java
                 </h2>
               </div>
             </Col>
@@ -211,7 +182,7 @@ export default function TechnicalSkill() {
                     aria-valuenow={"86"}
                     aria-valuemin={"0"}
                     aria-valuemax={"100"}
-                    style={{ width: "86%" }}
+                    style={{ width: "78%" }}
                   ></div>
                 </div>
                 <h2
@@ -222,7 +193,7 @@ export default function TechnicalSkill() {
                     fontWeight: 700,
                   }}
                 >
-                  React js
+                  React JS
                 </h2>
               </div>
             </Col>
@@ -240,7 +211,7 @@ export default function TechnicalSkill() {
                     aria-valuenow={"85"}
                     aria-valuemin={"0"}
                     aria-valuemax={"100"}
-                    style={{ width: "85%" }}
+                    style={{ width: "75%" }}
                   ></div>
                 </div>
                 <h2
@@ -251,7 +222,7 @@ export default function TechnicalSkill() {
                     fontWeight: 700,
                   }}
                 >
-                  PHP
+                  C#
                 </h2>
               </div>
             </Col>
@@ -259,7 +230,7 @@ export default function TechnicalSkill() {
               <h1
                 style={{ fontSize: "100px", color: "#54faae", fontWeight: 700 }}
               >
-                75%
+                70%
               </h1>
               <div style={{ paddingLeft: "50px", paddingRight: "50px" }}>
                 <div class="progress">
@@ -269,7 +240,7 @@ export default function TechnicalSkill() {
                     aria-valuenow={"85"}
                     aria-valuemin={"0"}
                     aria-valuemax={"100"}
-                    style={{ width: "85%" }}
+                    style={{ width: "70%" }}
                   ></div>
                 </div>
                 <h2
@@ -280,7 +251,7 @@ export default function TechnicalSkill() {
                     fontWeight: 700,
                   }}
                 >
-                  JAVA
+                  HTML/CSS
                 </h2>
               </div>
             </Col>

@@ -52,70 +52,9 @@ export default function Contactus() {
                 <h1 className="aboutme-heading">Contact me</h1>
               </Zoom>
             </Col>
-            <Col md={12} id="contact" className="mt-3">
-              <Row>
-                <Col md={4}>
-                  <div className="contacts-form" data-aos="fade-up">
-                    <form>
-                      <div className="input-container d-flex flex-column">
-                        <label htmlFor="username" className="label-class">
-                          Full Name
-                        </label>
-                        <input
-                          type="text"
-                          className="form-input input-class"
-                          id="username"
-                          name="name"
-                          aria-describedby="emailHelp"
-                          placeholder="Enter your name"
-                          value={formData.name || ""}
-                          onChange={handleChange}
-                        />
-                      </div>
-                      <div className="input-container d-flex flex-column">
-                        <label htmlFor="email" className="label-class">
-                          Email address
-                        </label>
-                        <input
-                          type="email"
-                          className="form-input input-class"
-                          name="email"
-                          id="email"
-                          aria-describedby="emailHelp"
-                          placeholder="Enter email"
-                          value={formData.email || ""}
-                          onChange={handleChange}
-                        />
-                      </div>
-                      <div className="input-container d-flex flex-column">
-                        <label htmlFor="userMessage" className="label-class">
-                          Message
-                        </label>
-                        <textarea
-                          className="form-message input-class"
-                          id="userMessage"
-                          name="message"
-                          rows="3"
-                          placeholder="Enter message"
-                          value={formData.message || ""}
-                          onChange={handleChange}
-                        />
-                      </div>
-
-                      <div className="submit-btn">
-                        <button
-                          type="submit"
-                          className="submitBtn"
-                          onClick={handleSubmit}
-                        >
-                          Submit
-                          <AiOutlineSend className="send-icon" />
-                        </button>
-                      </div>
-                    </form>
-                  </div>
-                </Col>
-                <Col md={7}>
+            <Col md={5} 
+            
+            >
                   <div className="contacts-details">
                     <a
                       href={`mailto:faiza.siddiqui33@gmail.com`}
@@ -138,8 +77,7 @@ export default function Contactus() {
                       <p style={{ color: "#fbd9ad" }}>+1-(587)-969-9970</p>
                     </a>
                     <a
-                      href="https://www.google.ca/maps/place/Canada/@48.8264772,-135.5378996,3z/data=!3m1!4b1!4m6!3m5!1s0x4b0d03d337cc6ad9:0x9968b72aa2438fa5!8m2!3d56.130366!4d-106.346771!16zL20vMGQwNjBn?entry=ttu"
-                      className="personal-details"
+                     className="personal-details"
                     >
                       <div className="personal-details">
                         <div className="detailsIcon">
@@ -151,21 +89,7 @@ export default function Contactus() {
                       </div>
                     </a>
                   </div>
-                  <div className="contact-map">
-                    <iframe
-                      src="https://www.google.ca/maps/place/Canada/@25.8525831,-166.9232641,3z/data=!3m1!4b1!4m6!3m5!1s0x4b0d03d337cc6ad9:0x9968b72aa2438fa5!8m2!3d56.130366!4d-106.346771!16zL20vMGQwNjBn?entry=ttu"
-                      frameBorder="0"
-                      allowFullScreen=""
-                      aria-hidden="false"
-                      title="Contact Me"
-                      tabIndex="0"
-                      loading="lazy"
-                      className=""
-                    ></iframe>
-                  </div>
                 </Col>
-              </Row>
-            </Col>
           </Row>
         </Container>
       </Container>

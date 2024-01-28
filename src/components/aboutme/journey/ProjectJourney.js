@@ -43,7 +43,7 @@ function ProjectJourney() {
           icon={<JavascriptIcon />}
         >
           <h3 className="vertical-timeline-element-title">
-            Personal Portfolio Website
+            Big Data Analytics & Cloud Computing 
           </h3>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -55,7 +55,7 @@ function ProjectJourney() {
           icon={<JavascriptIcon />}
         >
           <h3 className="vertical-timeline-element-title">
-            Amazing Meal System
+            Time Series Analysis - Forecasting Prices of Gold Project
           </h3>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -67,7 +67,7 @@ function ProjectJourney() {
           icon={<JavascriptIcon />}
         >
           <h3 className="vertical-timeline-element-title">
-            Academia Learning Website
+            Approximation of Losses on a Lending Project for FCC
           </h3>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -77,66 +77,6 @@ function ProjectJourney() {
           date=""
           iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
           icon={<JavascriptIcon />}
-        >
-          <h3 className="vertical-timeline-element-title">
-            Personal Portfolio
-          </h3>
-        </VerticalTimelineElement>
-        <VerticalTimelineElement
-          className="vertical-timeline-element--work"
-          contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
-          contentArrowStyle={{ borderRight: "7px solid  rgb(78 22 112)" }}
-          date=""
-          iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
-          icon={<CssIcon />}
-        >
-          <h3 className="vertical-timeline-element-title">
-            Online Payroll management System
-          </h3>
-        </VerticalTimelineElement>
-        <VerticalTimelineElement
-          className="vertical-timeline-element--work"
-          contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
-          contentArrowStyle={{ borderRight: "7px solid  rgb(78 22 112)" }}
-          date=""
-          iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
-          icon={<HtmlIcon />}
-        >
-          <h3 className="vertical-timeline-element-title">
-            Approximation of Losses on a Lending Project
-          </h3>
-        </VerticalTimelineElement>
-        <VerticalTimelineElement
-          className="vertical-timeline-element--work"
-          contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
-          contentArrowStyle={{ borderRight: "7px solid  rgb(78 22 112)" }}
-          date=""
-          iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
-          icon={<CodeIcon />}
-        >
-          <h3 className="vertical-timeline-element-title">
-            Time Series Analysis - Forecasting Prices of Gold
-          </h3>
-        </VerticalTimelineElement>
-        <VerticalTimelineElement
-          className="vertical-timeline-element--work"
-          contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
-          contentArrowStyle={{ borderRight: "7px solid  rgb(78 22 112)" }}
-          date=""
-          iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
-          icon={<CssIcon />}
-        >
-          <h3 className="vertical-timeline-element-title">
-            Big Data Analytics & Cloud Computing
-          </h3>
-        </VerticalTimelineElement>
-        <VerticalTimelineElement
-          className="vertical-timeline-element--work"
-          contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
-          contentArrowStyle={{ borderRight: "7px solid  rgb(78 22 112)" }}
-          date=""
-          iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
-          icon={<CssIcon />}
         >
           <h3 className="vertical-timeline-element-title">
             Housing Price Prediction
@@ -151,7 +91,7 @@ function ProjectJourney() {
           icon={<CssIcon />}
         >
           <h3 className="vertical-timeline-element-title">
-            PCL Worker Return Prediction
+            Reinforcement Learning 
           </h3>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -160,10 +100,10 @@ function ProjectJourney() {
           contentArrowStyle={{ borderRight: "7px solid  rgb(78 22 112)" }}
           date=""
           iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
-          icon={<JavascriptIcon />}
+          icon={<HtmlIcon />}
         >
           <h3 className="vertical-timeline-element-title">
-            Q-Learning - Reinforcement Learning
+            Time Series Forecasting
           </h3>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -175,7 +115,67 @@ function ProjectJourney() {
           icon={<CodeIcon />}
         >
           <h3 className="vertical-timeline-element-title">
-            Generative Adversial Network
+            Computer Vision - Object Detection
+          </h3>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
+          contentArrowStyle={{ borderRight: "7px solid  rgb(78 22 112)" }}
+          date=""
+          iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
+          icon={<CssIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">
+            Anomaly Detection
+          </h3>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
+          contentArrowStyle={{ borderRight: "7px solid  rgb(78 22 112)" }}
+          date=""
+          iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
+          icon={<CssIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">
+            Personal Portfolio
+          </h3>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
+          contentArrowStyle={{ borderRight: "7px solid  rgb(78 22 112)" }}
+          date=""
+          iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
+          icon={<CssIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">
+            Generative Adversial Network (GAN)
+          </h3>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
+          contentArrowStyle={{ borderRight: "7px solid  rgb(78 22 112)" }}
+          date=""
+          iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
+          icon={<JavascriptIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">
+            Customer Churn
+          </h3>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
+          contentArrowStyle={{ borderRight: "7px solid  rgb(78 22 112)" }}
+          date=""
+          iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
+          icon={<CodeIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">
+            PCL Craftworker Analysis & Return Prediction	
           </h3>
         </VerticalTimelineElement>
         <VerticalTimelineElement
